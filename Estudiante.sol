@@ -44,7 +44,7 @@ contract Estudiante{
         }
 
         if (isInArr){
-            _materias[].push() = materia;
+            _materias.push() = materia;
         }
         contador++;
     }
@@ -60,12 +60,18 @@ contract Estudiante{
         return false;
     }
 
-    function promedio() public view returns (uint8){
-        uint16 _promedio = 0;
+    function promedio() public view returns (uint){
+        uint _promedio = 0;
         for (uint i = 0; i < _materias.length; i++){
-            _promedio += _notas_materias[_materias];
+            _promedio += _notas_materias[_materias[i]];
         }
 
-        return _promedio / _materias.length();
+        return _promedio / _materias.length;
     }
+
+    /*Opcional:
+    A) 
+    B)
+    C)
+    */ 
 }
