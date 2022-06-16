@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.12;
 
-contract Estudiante{
+contract EstudianteAlt{
 
     string private _nombre;
     string private _apellido;
